@@ -1,24 +1,24 @@
 <!-- Start of auto generated data from MIB: VMWARE-VC-EVENT-MIB -->
 <events xmlns="http://xmlns.opennms.org/xsd/eventconf">
-<event>
-	<mask>
-		<maskelement>
-			<mename>id</mename>
-			<mevalue>.1.3.6.1.4.1.6876.4.3</mevalue>
-		</maskelement>
-		<maskelement>
-			<mename>generic</mename>
-			<mevalue>6</mevalue>
-		</maskelement>
-		<maskelement>
-			<mename>specific</mename>
-			<mevalue>201</mevalue>
-		</maskelement>
-	</mask>
-	<uei>uei.opennms.org/vendor/vmware/traps/vpxdAlarm</uei>
-	<event-label>VMWARE-VC-EVENT-MIB defined trap event: vpxdAlarm</event-label>
-	<descr>
-<![CDATA[
+    <event>
+        <mask>
+            <maskelement>
+                <mename>id</mename>
+                <mevalue>.1.3.6.1.4.1.6876.4.3</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>generic</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>specific</mename>
+                <mevalue>201</mevalue>
+            </maskelement>
+        </mask>
+        <uei>uei.opennms.org/vendor/vmware/traps/vpxdAlarm</uei>
+        <event-label>VMWARE-VC-EVENT-MIB defined trap event: vpxdAlarm</event-label>
+        <descr>
+            <![CDATA[
 <p>This notification is sent on entity alarm state change, by the vCenter Server SNMP agent.
 This information is also available through the vSphere client, through the Alarms screen,
 or through the Managed Object Browser(MOB) interface for alarms at
@@ -51,8 +51,8 @@ for details.</p><table>
 	vmwVpxdObjValue</b></td><td>
 	%parm[#6]%;</td><td><p></p></td></tr></table>
 ]]>
-	</descr>
-		<logmsg dest='logndisplay'><![CDATA[<p>
+        </descr>
+        <logmsg dest='logndisplay'><![CDATA[<p>
 			vpxdAlarm trap received 
 			vmwVpxdTrapType=%parm[#1]% 
 			vmwVpxdHostName=%parm[#2]% 
@@ -60,58 +60,58 @@ for details.</p><table>
 			vmwVpxdOldStatus=%parm[#4]% 
 			vmwVpxdNewStatus=%parm[#5]% 
 			vmwVpxdObjValue=%parm[#6]%</p>
-]]>		</logmsg>
-	<severity>Warning</severity>
-</event>
-<event>
-	<mask>
-		<maskelement>
-			<mename>id</mename>
-			<mevalue>.1.3.6.1.4.1.6876.4.3</mevalue>
-		</maskelement>
-		<maskelement>
-			<mename>generic</mename>
-			<mevalue>6</mevalue>
-		</maskelement>
-		<maskelement>
-			<mename>specific</mename>
-			<mevalue>202</mevalue>
-		</maskelement>
-	</mask>
-	<uei>uei.opennms.org/vendor/vmware/traps/vpxdDiagnostic</uei>
-	<event-label>VMWARE-VC-EVENT-MIB defined trap event: vpxdDiagnostic</event-label>
-	<descr>
-<![CDATA[
+]]>        </logmsg>
+        <severity>Warning</severity>
+    </event>
+    <event>
+        <mask>
+            <maskelement>
+                <mename>id</mename>
+                <mevalue>.1.3.6.1.4.1.6876.4.3</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>generic</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>specific</mename>
+                <mevalue>202</mevalue>
+            </maskelement>
+        </mask>
+        <uei>uei.opennms.org/vendor/vmware/traps/vpxdDiagnostic</uei>
+        <event-label>VMWARE-VC-EVENT-MIB defined trap event: vpxdDiagnostic</event-label>
+        <descr>
+            <![CDATA[
 <p>This notification is sent on starting or restarting vCenter Server,
 on requesting a test notification explicitly, and can also be
 configured to be sent periodically at a specified time interval via
 vCenter Server configuration by the vCenter Server SNMP agent.</p><table></table>
 ]]>
-	</descr>
-		<logmsg dest='logndisplay'><![CDATA[<p>
+        </descr>
+        <logmsg dest='logndisplay'><![CDATA[<p>
 			vpxdDiagnostic trap received</p>
-]]>		</logmsg>
-	<severity>Normal</severity>
-</event>
-<event>
-	<mask>
-		<maskelement>
-			<mename>id</mename>
-			<mevalue>.1.3.6.1.4.1.6876.4.3</mevalue>
-		</maskelement>
-		<maskelement>
-			<mename>generic</mename>
-			<mevalue>6</mevalue>
-		</maskelement>
-		<maskelement>
-			<mename>specific</mename>
-			<mevalue>203</mevalue>
-		</maskelement>
-	</mask>
-	<uei>uei.opennms.org/vendor/vmware/traps/vpxdAlarmInfo</uei>
-	<event-label>VMWARE-VC-EVENT-MIB defined trap event: vpxdAlarmInfo</event-label>
-	<descr>
-<![CDATA[
+]]>        </logmsg>
+        <severity>Normal</severity>
+    </event>
+    <event>
+        <mask>
+            <maskelement>
+                <mename>id</mename>
+                <mevalue>.1.3.6.1.4.1.6876.4.3</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>generic</mename>
+                <mevalue>6</mevalue>
+            </maskelement>
+            <maskelement>
+                <mename>specific</mename>
+                <mevalue>203</mevalue>
+            </maskelement>
+        </mask>
+        <uei>uei.opennms.org/vendor/vmware/traps/vpxdAlarmInfo</uei>
+        <event-label>VMWARE-VC-EVENT-MIB defined trap event: vpxdAlarmInfo</event-label>
+        <descr>
+            <![CDATA[
 <p>This notification is sent on entity alarm state change, by the vCenter Server SNMP agent.
 This information is also available through the vSphere client, through the Alarms screen,
 or through the Managed Object Browser(MOB) interface for alarms at
@@ -145,16 +145,16 @@ for details.</p><table>
 	vmwVpxdTargetObj</b></td><td>
 	%parm[#5]%;</td><td><p></p></td></tr></table>
 ]]>
-	</descr>
-		<logmsg dest='logndisplay'><![CDATA[<p>
+        </descr>
+        <logmsg dest='logndisplay'><![CDATA[<p>
 			vpxdAlarmInfo trap received 
 			vmwVpxdTargetObjType=%parm[#1]% 
 			vmwVpxdOldStatus=%parm[#2]% 
 			vmwVpxdNewStatus=%parm[#3]% 
 			vmwVpxdObjValue=%parm[#4]% 
 			vmwVpxdTargetObj=%parm[#5]%</p>
-]]>		</logmsg>
-	<severity>Warning</severity>
-</event>
+]]>        </logmsg>
+        <severity>Warning</severity>
+    </event>
 </events>
-<!-- End of auto generated data from MIB: VMWARE-VC-EVENT-MIB -->
+        <!-- End of auto generated data from MIB: VMWARE-VC-EVENT-MIB -->
